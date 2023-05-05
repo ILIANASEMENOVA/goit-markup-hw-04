@@ -171,8 +171,8 @@ body {
 }
 .hero-solutions,
 .footer-content {
-  background-color: #2e2f42;
-}
+  background-color: #2e2f42;}
+.footer-content{padding: 100px 0;}
 /* hero title */
 .hero-title {
   font-weight: 700;
@@ -236,8 +236,7 @@ body {
 
 }
 .team-list-text-conteiner {
-  padding-bottom: 32px;
-  padding-top: 32px;
+  padding:32px 16px;
   text-align: center;
 }
 .team {
@@ -268,6 +267,12 @@ padding: 32px 16px;
   letter-spacing: 0.04em;
   color: #4d5ae5;
   background-color: #f4f4fd;
+}
+.button-list{ display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+  border-radius: 4px;
 }
 .button:hover,
 .button:focus {
@@ -335,14 +340,11 @@ margin-bottom: 48px;}  */
   color: #2e2f42;
 }
 .buttons-portfolio {
-  display: flex;
-  gap: 24px;
-  margin-bottom: 72px;
   align-items: center;
-  justify-content: center;
+  
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
-  border-radius: 4px;
+  
 }
 .buttons-portfolio:hover{border: 1px solid transparent;}
 .buttons-portfolio:focus{border: 1px solid transparent;}
