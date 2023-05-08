@@ -101,7 +101,7 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
-  /* gap: 76px; */
+  
 }
 .logo-part {
   color: #2e2f42;
@@ -217,6 +217,7 @@ body {
 }
 .section.no-padding {
   padding-bottom: 0;
+  padding-top: 0;
  
 }
 .section-team{padding-top: 0;
