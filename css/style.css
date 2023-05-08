@@ -106,12 +106,12 @@ body {
 .logo-part {
   color: #2e2f42;
 }
-/* .all-logo-header{margin-right: 76px;} */
+  .all-logo-header-2 {margin-right: 76px;}  
 /* nav link */
 .header-nav {
   display: flex;
   align-items: center;
-  column-gap: 76px;
+  /* column-gap: 76px;  */
 }
 .site-nav-list {
   display: flex;
@@ -304,7 +304,6 @@ padding-bottom: 120px;}
 }
 .work-examples {
   display: flex;
-  /* column-gap: 24px; */
   gap: 48px 24px;
   align-items: center;
   flex-wrap: wrap;
@@ -334,7 +333,7 @@ padding-bottom: 120px;}
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  border-top: none;
+  
 }
 .buttons-portfolio {
   align-items: center;
@@ -342,6 +341,7 @@ padding-bottom: 120px;}
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
+  
   
 }
 .buttons-portfolio:hover{border: 1px solid transparent;}
@@ -353,6 +353,6 @@ padding-bottom: 120px;}
   border: 1px solid #e7e9fc;
   background-color: #fff;
   padding: 32px 16px;
-
+  
   
 }
