@@ -81,8 +81,8 @@ body {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .page-header-container {
@@ -106,7 +106,7 @@ body {
 .logo-part {
   color: #2e2f42;
 }
-  .all-logo-header-2 {margin-right: 76px;}  
+  .all-logo-header-two {margin-right: 76px;}  
 /* nav link */
 .header-nav {
   display: flex;
@@ -136,6 +136,7 @@ body {
   color: #2e2f42;
   line-height: 1.5;
   padding: 24px 0;
+  display: block;
 }
 /* contact */
 .contact-nav-list {
@@ -215,8 +216,8 @@ body {
   padding-top: 120px;
    padding-bottom: 120px; 
 }
-.section.no-padding {
-  padding-bottom: 0;
+.no-padding {
+  
   padding-top: 0;
  
 }
@@ -341,16 +342,17 @@ padding-bottom: 120px;}
   padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  
+
   
 }
 .buttons-portfolio:hover{border: 1px solid transparent;}
 .buttons-portfolio:focus{border: 1px solid transparent;}
 .works-container {
-  border-top: none;
+  
   align-items: flex-start;
   justify-content: center;
   border: 1px solid #e7e9fc;
+  border-top: none;
   background-color: #fff;
   padding: 32px 16px;
   
