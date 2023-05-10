@@ -41,10 +41,14 @@ body {
 }
 .security {
   position: absolute;
-  visibility: hidden;
+  white-space: nowrap;
   padding: 0;
   width: 1px;
   height: 1px;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
   margin: -1;
 }
 .section-tittle {
@@ -81,8 +85,7 @@ body {
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   align-items: center;
-  /* padding-top: 24px;
-  padding-bottom: 24px; */
+  
 }
 
 .page-header-container {
