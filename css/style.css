@@ -360,11 +360,11 @@ body {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
-.buttons-portfolio:hover {
-  border: 1px solid transparent;
-}
+.buttons-portfolio:hover ,
 .buttons-portfolio:focus {
   border: 1px solid transparent;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .works-container {
   align-items: flex-start;
@@ -436,3 +436,7 @@ body {
   background-color: #31d0aa;
 }
 .footer-container{display: flex;}
+.work-exemples-list:hover,
+.work-exemples-list:focus
+{box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);}
