@@ -188,7 +188,7 @@ body {
 }
 
 .footer-content {display: flex;
-  align-items: baseline;
+  
   background-color: #2e2f42;
   padding: 100px 0;
 }
@@ -270,8 +270,9 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-list-text-conteiner {
-  padding: 32px 16px;
+  /* padding: 32px 16px; */
   text-align: center;
+  padding: 32px 0;
 }
 .team {
   display: flex;
@@ -348,6 +349,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+.work-examples-link{ display: block;}
 .work-examples-link:hover,
 .work-examples-link:focus {
   color: #404bbf;
@@ -415,10 +417,10 @@ body {
   gap: 24px;
 }
 
-.customers-list-link:hover .customers-list-icon,
-.customers-list-link:focus .customers-list-icon{
+.customers-list-link:hover,
+.customers-list-link:focus{
   color: #404bbf;
-   border-color: #404bbf; 
+  border-color: #404bbf; 
 }
 
 .customes-list-item {
@@ -435,7 +437,7 @@ body {
   height: 100%;
   
 }
-.customers-list-icon{fill:currentColor;}
+.customers-list-icon{fill: currentColor;}
 .text-social {
   font-weight: 500;
   color: #ffffff;
@@ -455,9 +457,11 @@ body {
 .social-list-link-footer:focus {
   background-color: #31d0aa;
 }
-.footer-container{display: flex;}
+.footer-container{display: flex;
+align-items: baseline;}
 .work-exemples-list:hover,
 .work-exemples-list:focus
 {box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
   0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);}
   .logo-paragraf-footer{ margin-right: 120px;}
+  .social-list-footer{gap: 16px;}
