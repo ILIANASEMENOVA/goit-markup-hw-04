@@ -54,7 +54,7 @@ body {
 .section-tittle {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -185,6 +185,8 @@ body {
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-content {display: flex;
